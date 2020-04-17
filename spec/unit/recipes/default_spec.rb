@@ -24,7 +24,7 @@ describe 'cookbook-environment::default' do
     end
 
     it 'should create a Downloads folder' do
-      expect(chef_run).to create_directory '/home/vagrant/Downloads'
+      expect(chef_run).to create_directory '/home/ubuntu/Downloads'
     end
   end
 end

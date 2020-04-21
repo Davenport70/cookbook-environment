@@ -7,6 +7,10 @@ describe package 'python3-pip' do
   it { should be_installed }
 end
 
+describe package 'packer' do
+  it { should be_installed }
+end
+
 describe directory '/home/ubuntu/Downloads' do
   it {should exist}
 end

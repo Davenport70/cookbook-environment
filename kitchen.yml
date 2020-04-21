@@ -23,7 +23,7 @@ verifier:
 platforms:
   - name: ubuntu-18.04
     driver:
-    box: ubuntu/bionic64
+      box: ubuntu/bionic64
 
 suites:
   - name: default

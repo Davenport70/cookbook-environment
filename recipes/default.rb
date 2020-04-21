@@ -9,6 +9,8 @@ end
 
 package 'python3-pip'
 
+package 'packer'
+
 bash 'install_requirements' do
   code <<-EOH
     sudo pip3 install atomicwrites==1.3.0
